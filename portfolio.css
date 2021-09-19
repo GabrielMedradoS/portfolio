@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color:#828282;
+    font-weight: 400;
+}
+
+h1, h2 {
+    color: #F9F9F9;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #171717;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0 auto;
+    padding: 2.18rem 9.37rem;
+
+    font-family:'DM Sans'; 
+}
+
+/*** header *******************************************************/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio {
+    font-weight: 700;
+    font-size: 1.625rem;
+
+    color: #F9F9F9;
+}
+
+.navigation a {
+    font-weight: 400;
+    font-size: 1.125rem;
+
+    margin-right: 2.81rem;
+
+    color: #F9F9F9;
+}
+
+/*** sobre *******************************************************/
+section .sides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 8.9rem;
+}
+
+.left_side h1 {
+    font-size: 2.25rem;
+}
+
+.left_side p {
+    margin-top:1.125rem;
+    font-weight: 500;
+}
+
+.left_side button {
+    margin-top:2.18rem;
+    border: solid 1px #333333;
+
+    cursor: pointer;
+}
+
+.left_side button.download {
+    padding: 0.75rem 1.68rem;
+    background-color: #00DF5E;
+    color: #171717;
+}
+
+.left_side button.contato {
+    padding: 0.75rem 1.125rem;
+    color: #F9F9F9;
+    background-color: #171717;
+}
+
+.rigth_side img {
+    width: 18.75rem;
+    height: 15.90rem;
+}
+
+.descricao {
+    margin-top: 10.56rem;
+
+    text-align: center;
+}
+
+.icons {
+    margin-top: 5.31rem;
+
+    display: flex;
+    /* font-weight: 700; */
+    align-items: center;
+    text-align: center;
+    
+}
+.icons h1 {
+    font-size: 1.125rem;
+}
+
+.icons p {
+    font-size: 1rem;
+}
+
+.icon {
+    margin-right: 11.875rem;
+}
