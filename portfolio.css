@@ -9,9 +9,20 @@ p {
     font-weight: 400;
 }
 
-h1, h2 {
+h1 {
     color: #F9F9F9;
     font-weight: 700;
+}
+
+.titulo {
+    text-align: center;
+    color: #F9F9F9;
+    font-weight: 700;  
+}
+
+h3 {
+    color: #F9F9F9;
+    font-weight: 500;
 }
 
 a {
@@ -20,6 +31,8 @@ a {
 
 body {
     background-color: #171717;
+
+    overflow-x: hidden;
 }
 
 html {
@@ -59,6 +72,10 @@ header {
     color: #F9F9F9;
 }
 
+.navigation a:hover {
+    color: #AAA;
+}
+
 /*** sobre *******************************************************/
 section .sides {
     display: flex;
@@ -88,12 +105,26 @@ section .sides {
     padding: 0.75rem 1.68rem;
     background-color: #00DF5E;
     color: #171717;
+
+    transition: background 0.3s ease;
+}
+
+.left_side button.download:hover {
+    background-color: hsl(159 57% 53%);
+    color: #F9F9F9;
 }
 
 .left_side button.contato {
     padding: 0.75rem 1.125rem;
     color: #F9F9F9;
     background-color: #171717;
+
+    transition: background 0.3s ease;
+}
+
+.left_side button.contato:hover {
+    background-color: #F9F9F9;
+    color: #171717;
 }
 
 .rigth_side img {
@@ -105,16 +136,22 @@ section .sides {
     margin-top: 10.56rem;
 
     text-align: center;
+    padding: 0 12.38rem;
 }
 
+.descricao p {
+    margin-top: 1.875rem;
+}
+
+/* *** icons *** */
 .icons {
     margin-top: 5.31rem;
 
     display: flex;
-    /* font-weight: 700; */
     align-items: center;
     text-align: center;
-    
+    justify-content: center;
+
 }
 .icons h1 {
     font-size: 1.125rem;
@@ -125,5 +162,74 @@ section .sides {
 }
 
 .icon {
-    margin-right: 11.875rem;
+    margin-right: 4rem;
+
+}
+
+.icon p, h1 {
+/* evitar a quebra de linhas no icons */
+    white-space: nowrap;
+}
+
+/*** projetos *******************************************************/
+section.projetos {
+    margin-top: 7.93rem;
+}
+
+.projetos .boxes {
+    display: flex;
+    /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
+    flex-wrap: wrap;
+    
+    /* item que contem tudo tem no max 800px, o ideal é que seja a mesma largura nos outro itens do site */
+    max-width: 900px;
+    
+    /* passando dos 800 ele alinha ao centro  */
+    margin: 0 auto;
+}
+
+.box {
+    /* 3 pode se expandir ao maximo, 1 pode se encolher ao maximo, base sempre de 200px se nao tiver ira quebrar */
+    flex: 3 1 200px;
+    margin-top: 1.875rem;
+    margin-right: 1.81rem;
+
+    padding: 0.875rem 2rem;
+    background-color: #333333;
+
+    justify-content: space-between;
+
+}
+
+.test {
+    padding: 1.25rem 1.5rem;
+    background-color: red;
+}
+
+/*** serviços *******************************************************/
+section.servicos {
+    margin-top: 7.93rem;
+}
+
+.servicos .boxes2 {
+    display: flex;
+    /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
+    flex-wrap: wrap;
+    
+    /* item que contem tudo tem no max 800px, o ideal é que seja a mesma largura nos outro itens do site */
+    max-width: 900px;
+    
+    /* passando dos 800 ele alinha ao centro  */
+    margin: 0 auto;
+}
+
+.box2 {
+    /* 3 pode se expandir ao maximo, 1 pode se encolher ao maximo, base sempre de 200px se nao tiver ira quebrar */
+    flex: 3 1 200px;
+    margin-top: 1.875rem;
+    margin-right: 1.81rem;
+
+    padding: 0.875rem 2rem;
+    background-color: #333333;
+
 }
