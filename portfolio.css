@@ -177,7 +177,7 @@ section.projetos {
     margin-top: 7.93rem;
 }
 
-.projetos .boxes {
+.projetos .projectBoxes {
     display: flex;
     flex-wrap: wrap;
     
@@ -188,8 +188,8 @@ section.projetos {
     margin: 0 auto;
 }
 
-.box {
-    border: solid 1px #828282;
+.projectBox {
+    border: solid 1px #333333;
 
     /* 3 pode se expandir ao maximo, 1 pode se encolher ao maximo, base sempre de 200px se nao tiver ira quebrar */
     flex: 3 1 200px;
@@ -199,19 +199,19 @@ section.projetos {
     padding: 0.875rem 1rem;
 
     /* fundo entre as bordas */
-    background-color: #333333;
+    background-color: #212121;
 
     justify-content: space-between;
 
 }
 
-.box img {
+.projectBox img {
     display: block;
     max-width: 100%;
 }
 
-.test {
-    border: solid 1px #828282;
+.projectBox .containerBox {
+    border: solid 1px #333333;
     margin-bottom: 1.4375rem;
 
     padding: 1.25rem 1.5rem;
@@ -233,10 +233,9 @@ section.servicos {
     margin-top: 7.93rem;
 }
 
-.servicos .boxes2 {
+.servicos .servicesBoxes {
     display: flex;
     /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
-    flex-wrap: wrap;
     
     /* item que contem tudo tem no max 800px, o ideal é que seja a mesma largura nos outro itens do site */
     max-width: 900px;
@@ -245,13 +244,52 @@ section.servicos {
     margin: 0 auto;
 }
 
-.box2 {
+.servicesBox {
     /* 3 pode se expandir ao maximo, 1 pode se encolher ao maximo, base sempre de 200px se nao tiver ira quebrar */
     flex: 3 1 200px;
     margin-top: 1.875rem;
     margin-right: 1.81rem;
 
-    padding: 0.875rem 2rem;
+    padding: 0.875rem 1rem;
+    background-color: #212121;
+
+}
+
+.servicesBox img {
+    display: block;
+    max-width: 100%;
+}
+
+.servicesBox .containerBox {
+    margin-bottom: 3rem;
+}
+
+.servicesBox p {
+    font-weight: 500;
+    font-size: 1.5rem;
+
+    white-space: pre-line;
+}
+
+/*** footer *******************************************************/
+footer .content {
+    margin-top: 11.56rem;
+
+    /* centralizar o texto na div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: #333333;
 
+    height: 2.75rem;
+}
+
+footer .content p {
+    color: #F9F9F9;
+    font-weight: 700;
+}
+
+footer .content span {
+    color: #00DF5E;
 }
