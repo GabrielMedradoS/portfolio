@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*** base *******************************************************/
 p {
     color:#828282;
     font-weight: 400;
@@ -110,7 +111,7 @@ section .sides {
 }
 
 .left_side button.download:hover {
-    background-color: hsl(159 57% 53%);
+    background-color: rgba(0, 255, 127, 0.85);
     color: #F9F9F9;
 }
 
@@ -178,32 +179,53 @@ section.projetos {
 
 .projetos .boxes {
     display: flex;
-    /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
     flex-wrap: wrap;
     
-    /* item que contem tudo tem no max 800px, o ideal é que seja a mesma largura nos outro itens do site */
-    max-width: 900px;
+    /* item que contem tudo tem no max 750px, o ideal é que seja a mesma largura nos outro itens do site */
+    max-width: 750px;
     
     /* passando dos 800 ele alinha ao centro  */
     margin: 0 auto;
 }
 
 .box {
+    border: solid 1px #828282;
+
     /* 3 pode se expandir ao maximo, 1 pode se encolher ao maximo, base sempre de 200px se nao tiver ira quebrar */
     flex: 3 1 200px;
     margin-top: 1.875rem;
     margin-right: 1.81rem;
 
-    padding: 0.875rem 2rem;
+    padding: 0.875rem 1rem;
+
+    /* fundo entre as bordas */
     background-color: #333333;
 
     justify-content: space-between;
 
 }
 
+.box img {
+    display: block;
+    max-width: 100%;
+}
+
 .test {
+    border: solid 1px #828282;
+    margin-bottom: 1.4375rem;
+
     padding: 1.25rem 1.5rem;
-    background-color: red;
+
+    /* fundo da imagem */
+    background-color: #171717;
+}
+
+.projeto h2 {
+    font-size: 1.125rem;
+}
+
+.projeto p {
+    font-size: 0.875rem;
 }
 
 /*** serviços *******************************************************/
