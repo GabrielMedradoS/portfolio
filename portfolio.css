@@ -377,7 +377,7 @@ footer .content {
     color: #F9F9F9;
     position: fixed;
     right: 3rem;
-    bottom: 0rem;
+    bottom: 1rem;
 
     visibility: hidden;
     opacity: 0;
