@@ -202,7 +202,12 @@ section.projetos {
     background-color: #212121;
 
     justify-content: space-between;
+    
+    transition: transform 100ms ease-in-out;
+}
 
+.projectBox:hover {
+    transform: scale(1.05);
 }
 
 .projectBox img {
@@ -252,7 +257,6 @@ section.servicos {
 
     padding: 0.875rem 1rem;
     background-color: #212121;
-
 }
 
 .servicesBox img {
@@ -269,6 +273,43 @@ section.servicos {
     font-size: 1.5rem;
 
     white-space: pre-line;
+}
+
+/*** skills *******************************************************/
+section.skills {
+    margin-top: 7.93rem;
+}
+
+.skillsBoxes {
+    display: flex;
+    /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
+    
+    /* item que contem tudo tem no max 800px, o ideal é que seja a mesma largura nos outro itens do site */
+    max-width: 900px;
+    
+    /* passando dos 800 ele alinha ao centro  */
+    margin: 0 auto;
+}
+
+.skillBox {
+    flex: 6 1 200px;
+    margin-top: 1.875rem;
+    margin-right: 1.81rem;
+
+    padding: 1.875rem 1.5rem;
+    background-color: #212121;
+
+    /* centralizar o texto na div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 1px #333333;
+}
+
+.skillBox img {
+    display: block;
+    max-width: 100%;
 }
 
 /*** footer *******************************************************/
