@@ -32,7 +32,7 @@ a {
 
 body {
     background-color: #171717;
-
+    font-family:'DM Sans';
     overflow-x: hidden;
 }
 
@@ -42,12 +42,11 @@ html {
 
 .container {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 
     margin: 0 auto;
     padding: 2.18rem 9.37rem;
 
-    font-family:'DM Sans'; 
 }
 
 /*** header *******************************************************/
@@ -172,6 +171,24 @@ section .sides {
     white-space: nowrap;
 }
 
+.iconmoons {
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    left: 2rem;
+    bottom: 14rem;
+
+    font-size: 1rem;
+
+}
+
+.iconmoon {
+    color: #00DF5E;
+    margin-top: 2rem;
+}
+
+
 /*** projetos *******************************************************/
 section.projetos {
     margin-top: 7.93rem;
@@ -242,8 +259,8 @@ section.servicos {
     display: flex;
     /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
     
-    /* item que contem tudo tem no max 800px, o ideal é que seja a mesma largura nos outro itens do site */
-    max-width: 900px;
+    /* item que contem tudo tem no max 720px, o ideal é que seja a mesma largura nos outro itens do site */
+    max-width: 750px;
     
     /* passando dos 800 ele alinha ao centro  */
     margin: 0 auto;
@@ -257,11 +274,38 @@ section.servicos {
 
     padding: 0.875rem 1rem;
     background-color: #212121;
+
+    transition: color 0.2s;
+    position: relative;
+
+    border-radius: 0 0 4px 4px;
+}
+
+/* linhas no card serviços */
+.servicesBox::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #00DF5E;
+
+    position: absolute;
+    left: 0;
+    bottom: -0.1rem;
+
+    transition: width 0.2s;
+
+    border-radius: 0 0 5px 5px;
+}
+/* linhas no card serviços */
+.servicesBox:hover::after {
+    width: 100%;
 }
 
 .servicesBox img {
     display: block;
     max-width: 100%;
+
+    margin-top: 1rem;
 }
 
 .servicesBox .containerBox {
@@ -273,6 +317,8 @@ section.servicos {
     font-size: 1.5rem;
 
     white-space: pre-line;
+
+    margin-bottom: 1rem;
 }
 
 /*** skills *******************************************************/
@@ -284,15 +330,15 @@ section.skills {
     display: flex;
     /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
     
-    /* item que contem tudo tem no max 800px, o ideal é que seja a mesma largura nos outro itens do site */
-    max-width: 900px;
+    /* item que contem tudo tem no max 720px, o ideal é que seja a mesma largura nos outro itens do site */
+    max-width: 720px;
     
     /* passando dos 800 ele alinha ao centro  */
     margin: 0 auto;
 }
 
 .skillBox {
-    flex: 6 1 200px;
+    flex: 1 1 200px;
     margin-top: 1.875rem;
     margin-right: 1.81rem;
 
@@ -324,6 +370,27 @@ footer .content {
     background-color: #333333;
 
     height: 2.75rem;
+
+}
+
+.back-to-top {
+    color: #F9F9F9;
+    position: fixed;
+    right: 3rem;
+    bottom: 0rem;
+
+    visibility: hidden;
+    opacity: 0;
+
+    font-size: 1.5rem;
+    line-height: 0;
+
+    transition: 0.3s;
+}
+
+.back-to-top.show {
+    visibility: visible;
+    opacity: 1;
 }
 
 footer .content p {

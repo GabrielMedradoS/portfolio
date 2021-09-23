@@ -11,21 +11,24 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="portfolio.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="assets/fonts/style.css">
 </head>
 
 <body>
     <div class="container">
-        <header>
+        <header id="header">
             <div class="portfolio">Portfólio</div>
             <div class="navigation">
-                <a href="#">Sobre mim</a>
-                <a href="#">Projetos</a>
-                <a href="#">Serviços</a>
-                <a href="#">Minhas skills</a>
+                <a href="#about">Sobre mim</a>
+                <a href="#projects">Projetos</a>
+                <a href="#services">Serviços</a>
+                <a href="#skills">Minhas skills</a>
             </div>
         </header>
-    
-        <section class="Sobre">
+
+        <section class="Sobre" id="about">
             <div class="sides">
                 <div class="left_side">
                     <h1>Olá, eu sou Gabriel Medrado :)</h1>
@@ -34,7 +37,7 @@
                     <button class="contato">Entrar em contato</button>
                 </div>
                 <div class="rigth_side">
-                    <img src="assets/image.svg" alt="image">
+                    <img src="assets/images/image.svg" alt="image">
                 </div>
             </div>
 
@@ -44,31 +47,36 @@
                     Error ipsum molestias laboriosam sed consectetur dolor et nihil consequuntur quaerat illo. 
                     Ipsam unde cum quo omnis nostrum accusamus molestias maxime delectus?</p>
                 </div>
+                
+                <div class="iconmoons">
+                    <a href="#" class="iconmoon"><i class="icon-github"></i></a>
+                    <a href="#" class="iconmoon"><i class="icon-linkedin"></i></a>
+                </div>
 
                 <div class="icons">
                     <div class="icon">
-                        <img src="assets/fonts/smile.svg" alt="smile">
+                        <img src="assets/icons/smile.svg" alt="smile">
                             <h1>Meu Nome</h1>
                             <p>Gabriel Medrado</p>
                         </img>
                     </div>
 
                     <div class="icon">
-                        <img src="assets/fonts/mail.svg" alt="mail">
+                        <img src="assets/icons/mail.svg" alt="mail">
                             <h1>E-mail</h1>
                             <p>gabriel.medradoo@hotmail.com</p>
                         </img>
                     </div>
 
                     <div class="icon">
-                        <img src="assets/fonts/instagram.svg" alt="instagram">
+                        <img src="assets/icons/instagram.svg" alt="instagram">
                             <h1>Instagram</h1>
                             <p>@GbMedrado</p>
                         </img>
                     </div>
 
                     <div class="icon">                        
-                        <img src="assets/fonts/phone.svg" alt="telefone">
+                        <img src="assets/icons/phone.svg" alt="telefone">
                             <h1>Telefone</h1>
                             <p>(21)999999999</p>
                         </img>
@@ -76,12 +84,12 @@
                 </div>
         </section>
 
-        <section class="projetos">        
+        <section class="projetos" id="projects">        
             <div class="titulo"><h2>Projetos</h2></div>         
             <div class="projectBoxes"> 
                 <div class="projectBox">
                     <div class="projeto">
-                        <div class="containerBox"><img src="assets/image.svg" alt=""></div>
+                        <div class="containerBox"><img src="assets/images/image.svg" alt=""></div>
                         <h3>Título</h3>
                         <p>Tecnologias: HTML CSS JS</p>
                     </div>
@@ -89,7 +97,7 @@
                 
                 <div class="projectBox">
                     <div class="projeto">
-                        <div class="containerBox"><img src="assets/image.svg" alt=""></div>
+                        <div class="containerBox"><img src="assets/images/image.svg" alt=""></div>
                         <h3>Título</h3>
                         <p>Tecnologias: HTML CSS JS</p>
                     </div>
@@ -97,7 +105,7 @@
 
                 <div class="projectBox">
                     <div class="projeto">
-                        <div class="containerBox"><img src="assets/image.svg" alt=""></div>
+                        <div class="containerBox"><img src="assets/images/image.svg" alt=""></div>
                         <h3>Título</h3>
                         <p>Tecnologias: HTML CSS JS</p>
                     </div>
@@ -105,7 +113,7 @@
 
                 <div class="projectBox">
                     <div class="projeto">
-                        <div class="containerBox"><img src="assets/image.svg" alt=""></div>
+                        <div class="containerBox"><img src="assets/images/image.svg" alt=""></div>
                         <h3>Título</h3>
                         <p>Tecnologias: HTML CSS JS</p>
                     </div>
@@ -113,7 +121,7 @@
 
                 <div class="projectBox">
                     <div class="projeto">
-                        <div class="containerBox"><img src="assets/image.svg" alt=""></div>
+                        <div class="containerBox"><img src="assets/images/image.svg" alt=""></div>
                         <h3>Título</h3>
                         <p>Tecnologias: HTML CSS JS</p>
                     </div>
@@ -121,7 +129,7 @@
 
                 <div class="projectBox">
                     <div class="projeto">
-                        <div class="containerBox"><img src="assets/image.svg" alt=""></div>
+                        <div class="containerBox"><img src="assets/images/image.svg" alt=""></div>
                         <h3>Título</h3>
                         <p>Tecnologias: HTML CSS JS</p>
                     </div>
@@ -130,30 +138,30 @@
 
         </section>
 
-        <section class="servicos">
+        <section class="servicos" id="services">
             <div class="titulo"><h2>Serviços</h2></div>
             <div class="servicesBoxes">
                 <div class="servicesBox">
-                    <div class="containerBox"><img src="assets/code.svg" alt="code"></div>
+                    <div class="containerBox"><img src="assets/images/code.svg" alt="code"></div>
                     <p>Criaçao 
                         de sites</p>
                 </div>
 
                 <div class="servicesBox">
-                    <div class="containerBox"><img src="assets/figma.svg" alt="figma"></div>
+                    <div class="containerBox"><img src="assets/images/figma.svg" alt="figma"></div>
                     <p>UI 
                         Designer</p>
                 </div>
 
                 <div class="servicesBox">
-                    <div class="containerBox"><img src="assets/smartphone.svg" alt="smartphone"></div>
+                    <div class="containerBox"><img src="assets/images/smartphone.svg" alt="smartphone"></div>
                     <p>Sites 
                         responsivos</p>
                 </div>
             </div>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="titulo"><h2>Minhas skills</h2></div>
             <div class="skillsBoxes">
                 <div class="skillBox">
@@ -182,12 +190,17 @@
             </div>
         </section>
         
+    </div>  
+    
     <footer>
+        <a href="#header" class="back-to-top"><i class="icon-circle-up"></i></a>
+
         <div class="content">
             <p>Orgulhosamente feito por <span>Gabriel Medrado</span></p>
         </div>
     </footer>
 
-    </div>  
+    <!-- main -->
+    <script src="portfolio.js"></script>
 </body>
 </html>
