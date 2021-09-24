@@ -2,7 +2,7 @@
   <img src=".github/portfolio.png" alt="portfolio" width="100%">
 
 ### 💻 Projeto
-Site para divulgaçao
+Site para divulgaçao - https://gbmedrado.netlify.app/
 
 ### 🛠 Tecnologias
 <div>
