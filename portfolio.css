@@ -227,7 +227,7 @@ section.projetos {
     transform: scale(1.05);
 }
 
-.projectBox img {
+.projectBox .containerBox img {
     display: block;
     max-width: 100%;
 }
@@ -235,8 +235,11 @@ section.projetos {
 .projectBox .containerBox {
     border: solid 1px #333333;
     margin-bottom: 1.4375rem;
+   
+    max-width: 12rem;
+    max-height: 30rem;
 
-    padding: 1.25rem 1.5rem;
+    padding: 0.5rem 0.5rem;
 
     /* fundo da imagem */
     background-color: #171717;
