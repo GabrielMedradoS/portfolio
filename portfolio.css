@@ -211,7 +211,7 @@ section .sides {
     left: 2rem;
     bottom: 14rem;
 
-    font-size: 1rem;
+    font-size: 1.5rem;
 
 }
 
@@ -393,6 +393,32 @@ section.skills {
     max-width: 100%;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+
+  /* Tooltip texto */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Posiciona o texto tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* exibe o tooltip */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
 /*** footer *******************************************************/
 footer .content {
     margin-top: 11.56rem;
@@ -463,6 +489,12 @@ footer .content span {
 
 /*** mobile ***/
 @media screen and (max-width: 1000px){
+    .container {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .navigation {
         opacity: 0;
         visibility: hidden;
@@ -471,13 +503,13 @@ footer .content span {
         right: 0;
         /* o suficiente para a parte da logo continuara aparecendo */
         top: 10vh;
-        width: 50vw;
+        width: 30vw;
         height: 92vh;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
 
-        background-color: #171717;
+        background-color: #212121;
 
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -499,6 +531,7 @@ footer .content span {
         opacity: 1;
         visibility: visible;
         transform: translateX(0);
+
     }
 
 
@@ -524,6 +557,8 @@ footer .content span {
         grid-gap: .5rem;
         margin-right: auto;
         margin-left: auto;
+
+        max-width: 400px;
     }
 
     .skillBox {
@@ -534,8 +569,14 @@ footer .content span {
 }
 
 @media screen and (max-width: 800px) {
+    .container {
+        padding: 2.18rem 2.37rem;
+    }
+
+
     .projectBoxes .containerBox {
         display: none;
+
     }
 
     .projectBox {
@@ -562,5 +603,96 @@ footer .content span {
         flex-direction: column; 
         
         max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .container {
+        width: 100vw;
+        margin:0 auto;
+        width: 100%;
+
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        padding: 1.18rem 2.37rem;;
+    }
+
+    .sides {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        text-align: center;
+    }
+
+    .iconmoons {
+        display: none;
+    }
+
+    .left_side span {
+        display: block;
+    }
+
+
+    .descricao {
+        align-items: center;
+        text-align: center;
+
+        padding: 0;
+    }
+
+ /*    .descricao p {
+        font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+    }
+ */
+    .descricao h2 {
+        align-items: center;
+        white-space: nowrap;
+
+        text-align: center;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icon {
+        margin-top: 3.75rem;
+    }
+
+
+    .skills h2 {
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    .skillsBoxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        /* justify-content: center; */
+
+    }
+    .skillBox {
+        margin-top: 0.8rem;
+    }
+
+    footer {
+        padding: 0;
+
+        margin-top: 8.56rem;
+
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .back-to-top {
+        display: none;
     }
 }
