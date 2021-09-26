@@ -168,6 +168,10 @@ section .sides {
     margin-top: 1.875rem;
 }
 
+.descricao span {
+    display: block;
+}
+
 /* *** icons *** */
 .icons {
     margin-top: 5.31rem;
@@ -462,6 +466,7 @@ footer .content span {
     .navigation {
         opacity: 0;
         visibility: hidden;
+        
         position: absolute;
         right: 0;
         /* o suficiente para a parte da logo continuara aparecendo */
