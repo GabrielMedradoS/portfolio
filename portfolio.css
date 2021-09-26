@@ -80,6 +80,8 @@ header {
 
     color: #F9F9F9;
 
+    cursor: pointer;
+
 /*     espaçamento entre as letras
     letter-spacing: 1px; */
 }
@@ -458,6 +460,8 @@ footer .content span {
 /*** mobile ***/
 @media screen and (max-width: 1000px){
     .navigation {
+        opacity: 0;
+        visibility: hidden;
         position: absolute;
         right: 0;
         /* o suficiente para a parte da logo continuara aparecendo */
@@ -487,6 +491,8 @@ footer .content span {
     /* nav bar esta na direita da tela 
     overflowX esconde */
     .navigation.active {
+        opacity: 1;
+        visibility: visible;
         transform: translateX(0);
     }
 
