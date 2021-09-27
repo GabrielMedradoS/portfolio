@@ -400,7 +400,9 @@ footer .content span {
     .navigation {
         opacity: 0;
         visibility: hidden;
-        
+
+        /** NAVBAR ADJUSTMENT IMPORTANTE **/
+        display: none;
         position: absolute;
 
         /* posicionar na lateral */
@@ -409,7 +411,11 @@ footer .content span {
         top: 10vh;
         width: 50vw;
         height: 90vh;
+
+        /** NAVBAR ADJUSTMENT IMPORTANTE 
         display: flex;
+        **/
+
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -437,11 +443,12 @@ footer .content span {
         visibility: visible;
         transform: translateX(0);
 
+        /** NAVBAR ADJUSTMENT IMPORTANTE **/
+        display: flex;
     }
 
     .iconmoons {
-        left: 5rem;
-        bottom: 40rem;
+        display: none;
     }
 
     /*** about ********************************************/
@@ -503,10 +510,6 @@ footer .content span {
         justify-content: center;
         text-align: center;
         text-align: center;
-    }
-
-    .iconmoons {
-        display: none;
     }
 
     .left_side span {
