@@ -482,8 +482,8 @@ footer .content span {
     }
 
     .skillBox {
-        width: 6.81rem;
-        height: 6.37rem;
+        width: 5.81rem;
+        height: 6.37rem;       
     }
 
 }
@@ -522,7 +522,21 @@ footer .content span {
      }
     
     .icon {
+        margin-top: 1rem;
         margin-right: 8rem;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon.email {
+        margin-left: 3.6rem;
+    }
+
+    .icon.instagram {
+        margin-left: 3.6rem;
     }
 
    /*** projetos ********************************************/
@@ -548,8 +562,6 @@ footer .content span {
         max-width: 320px;
     }
 
-   /*** skills *********************************************/
- 
 
    /*** footer *********************************************/
     footer {
