@@ -1,674 +1,665 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*** base *******************************************************/
 p {
-    color:#828282;
-    font-weight: 400;
+  color: #828282;
+  font-weight: 400;
 }
 h1 {
-    color: #F9F9F9;
-    font-weight: 700;
+  color: #f9f9f9;
+  font-weight: 700;
 }
 .titulo {
-    text-align: center;
-    color: #F9F9F9;
-    font-weight: 700;  
+  text-align: center;
+  color: #f9f9f9;
+  font-weight: 700;
 }
 h3 {
-    color: #F9F9F9;
-    font-weight: 500;
+  color: #f9f9f9;
+  font-weight: 500;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 body {
-    background-color: #171717;
-    font-family:'DM Sans';
-    overflow-x: hidden;
+  background-color: #171717;
+  font-family: "DM Sans";
+  overflow-x: hidden;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 .container {
-    width: 100vw;
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 2.18rem 9.37rem;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2.18rem 9.37rem;
 }
 /*** header *******************************************************/
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .portfolio {
-    font-weight: 700;
-    font-size: 1.625rem;
-    color: #F9F9F9;
+  font-weight: 700;
+  font-size: 1.625rem;
+  color: #f9f9f9;
 }
 .navigation {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
-.navigation a {    
-    font-weight: 400;
-    font-size: 1.125rem;
-    margin-right: 2.81rem;
-    color: #F9F9F9;
-    cursor: pointer;
-/*     espaçamento entre as letras
+.navigation a {
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-right: 2.81rem;
+  color: #f9f9f9;
+  cursor: pointer;
+  /*     espaçamento entre as letras
     letter-spacing: 1px; */
 }
 .navigation a:hover {
-    color: #AAA;
+  color: #aaa;
 }
 /** navigation mobile **/
 .mobile-menu {
-    color: #F9F9F9;
-    font-size: 1rem;
+  color: #f9f9f9;
+  font-size: 1rem;
 }
 .mobile-menu i {
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 /*** sobre *******************************************************/
 section .sides {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 8.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8.9rem;
 }
 .left_side h1 {
-    font-size: 2.25rem;
+  font-size: 2.25rem;
 }
 .left_side p {
-    margin-top:1.125rem;
-    font-weight: 500;
+  margin-top: 1.125rem;
+  font-weight: 500;
 }
 .left_side button {
-    margin-top:2.18rem;
-    border: solid 1px #333333;
-    cursor: pointer;
+  margin-top: 2.18rem;
+  border: solid 1px #333333;
+  cursor: pointer;
 }
 .left_side button.download {
-    padding: 0.75rem 1.68rem;
-    background-color: #00DF5E;
-    color: #171717;
-    transition: background 0.3s ease;
+  padding: 0.75rem 1.68rem;
+  background-color: #00df5e;
+  color: #171717;
+  transition: background 0.3s ease;
 }
 .left_side button.download:hover {
-    background-color: rgba(0, 255, 127, 0.85);
-    color: #F9F9F9;
+  background-color: rgba(0, 255, 127, 0.85);
+  color: #f9f9f9;
 }
 .left_side button.contato {
-    padding: 0.75rem 1.125rem;
-    color: #F9F9F9;
-    background-color: #171717;
-    transition: background 0.3s ease;
+  padding: 0.75rem 1.125rem;
+  color: #f9f9f9;
+  background-color: #171717;
+  transition: background 0.3s ease;
 }
 .left_side button.contato:hover {
-    background-color: #F9F9F9;
-    color: #171717;
+  background-color: #f9f9f9;
+  color: #171717;
 }
 .rigth_side img {
-    width: 18.75rem;
-    height: 15.90rem;
+  width: 18.75rem;
+  height: 15.9rem;
 }
 .descricao {
-    margin-top: 10.56rem;
-    text-align: center;
-    padding: 0 12.38rem;
+  margin-top: 10.56rem;
+  text-align: center;
+  padding: 0 12.38rem;
 }
 .descricao p {
-    margin-top: 1.875rem;
+  margin-top: 1.875rem;
 }
 .descricao span {
-    display: block;
+  display: block;
 }
 /* *** icons *** */
 .icons {
-    margin-top: 5.31rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    /* para 3 icones */
-    margin-left: 4rem;
+  margin-top: 5.31rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* para 3 icones */
+  margin-left: 4rem;
 }
 .icons h1 {
-    font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 .icons p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 .icon {
-    margin-right: 4rem;
+  margin-right: 4rem;
 }
-.icon p, h1 {
-/* evitar a quebra de linhas no icons */
-    white-space: nowrap;
+.icon p,
+h1 {
+  /* evitar a quebra de linhas no icons */
+  white-space: nowrap;
 }
 .iconmoons {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    left: 2rem;
-    bottom: 14rem;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 2rem;
+  bottom: 14rem;
 
-    font-size: 1rem;
-    font-size: 1.5rem;
-
+  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .iconmoon {
-    color: #00DF5E;
-    margin-top: 2rem;
+  color: #00df5e;
+  margin-top: 2rem;
 }
 /*** projetos *******************************************************/
 section.projetos {
-    margin-top: 7.93rem;
+  margin-top: 7.93rem;
 }
 .projetos .projectBoxes {
-    display: flex;
-    flex-wrap: wrap;
-    
-    /* item que contem tudo tem no max 750px, o ideal é que seja a mesma largura nos outro itens do site */
-    max-width: 750px;
-    
-    /* passando dos 800 ele alinha ao centro  */
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  /* item que contem tudo tem no max 750px, o ideal é que seja a mesma largura nos outro itens do site */
+  max-width: 750px;
+
+  /* passando dos 800 ele alinha ao centro  */
+  margin: 0 auto;
 }
 .projectBox {
-    border: solid 1px #333333;
-    /* 3 pode se expandir ao maximo, 1 pode se encolher ao maximo, base sempre de 200px se nao tiver ira quebrar */
-    flex: 3 1 200px;
-    margin-top: 1.875rem;
-    margin-right: 1.81rem;
-    padding: 0.875rem 1rem;
-    /* fundo entre as bordas */
-    background-color: #212121;
-    justify-content: space-between;
-    
-    transition: transform 100ms ease-in-out;
+  border: solid 1px #333333;
+  /* 3 pode se expandir ao maximo, 1 pode se encolher ao maximo, base sempre de 200px se nao tiver ira quebrar */
+  flex: 3 1 200px;
+  margin-top: 1.875rem;
+  margin-right: 1.81rem;
+  padding: 0.875rem 1rem;
+  /* fundo entre as bordas */
+  background-color: #212121;
+  justify-content: space-between;
+
+  transition: transform 100ms ease-in-out;
 }
 .projectBox:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 .projectBox .containerBox img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 .projectBox .containerBox {
-    border: solid 1px #333333;
-    margin-bottom: 1.4375rem;
-   
-    max-width: 12rem;
-    max-height: 30rem;
-    padding: 0.5rem 0.5rem;
-    /* fundo da imagem */
-    background-color: #171717;
+  border: solid 1px #333333;
+  margin-bottom: 1.4375rem;
+
+  max-width: 12rem;
+  max-height: 30rem;
+  padding: 0.5rem 0.5rem;
+  /* fundo da imagem */
+  background-color: #171717;
 }
 .projeto h2 {
-    font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 .projeto p {
-    font-size: 0.875rem;
+  font-size: 0.875rem;
 }
 /*** serviços *******************************************************/
 section.servicos {
-    margin-top: 7.93rem;
+  margin-top: 7.93rem;
 }
 .servicos .servicesBoxes {
-    display: flex;
-    /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
-    
-    /* item que contem tudo tem no max 720px, o ideal é que seja a mesma largura nos outro itens do site */
-    max-width: 750px;
-    
-    /* passando dos 800 ele alinha ao centro  */
-    margin: 0 auto;
+  display: flex;
+  /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
+
+  /* item que contem tudo tem no max 720px, o ideal é que seja a mesma largura nos outro itens do site */
+  max-width: 750px;
+
+  /* passando dos 800 ele alinha ao centro  */
+  margin: 0 auto;
 }
 .servicesBox {
-    /* 3 pode se expandir ao maximo, 1 pode se encolher ao maximo, base sempre de 200px se nao tiver ira quebrar */
-    flex: 3 1 200px;
-    margin-top: 1.875rem;
-    margin-right: 1.81rem;
-    padding: 0.875rem 1rem;
-    background-color: #212121;
-    transition: color 0.2s;
-    position: relative;
-    border-radius: 0 0 4px 4px;
+  /* 3 pode se expandir ao maximo, 1 pode se encolher ao maximo, base sempre de 200px se nao tiver ira quebrar */
+  flex: 3 1 200px;
+  margin-top: 1.875rem;
+  margin-right: 1.81rem;
+  padding: 0.875rem 1rem;
+  background-color: #212121;
+  transition: color 0.2s;
+  position: relative;
+  border-radius: 0 0 4px 4px;
 }
 /* linhas no card serviços */
 .servicesBox::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    background: #00DF5E;
-    position: absolute;
-    left: 0;
-    bottom: -0.1rem;
-    transition: width 0.2s;
-    border-radius: 0 0 5px 5px;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: #00df5e;
+  position: absolute;
+  left: 0;
+  bottom: -0.1rem;
+  transition: width 0.2s;
+  border-radius: 0 0 5px 5px;
 }
 /* linhas no card serviços */
 .servicesBox:hover::after {
-    width: 100%;
+  width: 100%;
 }
 .servicesBox img {
-    display: block;
-    max-width: 100%;
-    margin-top: 1rem;
+  display: block;
+  max-width: 100%;
+  margin-top: 1rem;
 }
 .servicesBox .containerBox {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 .servicesBox p {
-    font-weight: 500;
-    font-size: 1.5rem;
-    white-space: pre-line;
-    margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  white-space: pre-line;
+  margin-bottom: 1rem;
 }
 /*** skills *******************************************************/
 section.skills {
-    margin-top: 7.93rem;
+  margin-top: 7.93rem;
 }
 .skillsBoxes {
-    display: flex;
-    /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
-    
-    /* item que contem tudo tem no max 720px, o ideal é que seja a mesma largura nos outro itens do site */
-    max-width: 720px;
-    
-    /* passando dos 800 ele alinha ao centro  */
-    margin: 0 auto;
+  display: flex;
+  /* alinhando com o flex>div ele tera no max 200px e era quebrando na tela */
+
+  /* item que contem tudo tem no max 720px, o ideal é que seja a mesma largura nos outro itens do site */
+  max-width: 720px;
+
+  /* passando dos 800 ele alinha ao centro  */
+  margin: 0 auto;
 }
 .skillBox {
-    flex: 1 1 200px;
-    margin-top: 1.875rem;
-    margin-right: 1.81rem;
-    padding: 1.875rem 1.5rem;
-    background-color: #212121;
-    /* centralizar o texto na div */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px #333333;
+  flex: 1 1 200px;
+  margin-top: 1.875rem;
+  margin-right: 1.81rem;
+  padding: 1.875rem 1.5rem;
+  background-color: #212121;
+  /* centralizar o texto na div */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #333333;
 }
 .skillBox img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 .tooltip {
-    position: relative;
-    display: inline;
+  position: relative;
+  display: inline;
+}
 
-  }
-
-  /* Tooltip texto */
+/* Tooltip texto */
 .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
 
-    /* Posiciona o texto tooltip */
-    position: absolute;
-    z-index: 1;
-  }
+  /* Posiciona o texto tooltip */
+  position: absolute;
+  z-index: 1;
+}
 
-  /* exibe o tooltip */
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+/* exibe o tooltip */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 /*** footer *******************************************************/
 footer .content {
-    margin-top: 11.56rem;
-    /* centralizar o texto na div */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #333333;
-    height: 2.75rem;
+  margin-top: 7.56rem;
+  /* centralizar o texto na div */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+  height: 2.75rem;
 }
 .back-to-top {
-    color: #F9F9F9;
-    position: fixed;
-    right: 3rem;
-    bottom: 1rem;
-    visibility: hidden;
-    opacity: 0;
-    font-size: 1.5rem;
-    line-height: 0;
-    transition: 0.3s;
+  color: #f9f9f9;
+  position: fixed;
+  right: 3rem;
+  bottom: 1rem;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.5rem;
+  line-height: 0;
+  transition: 0.3s;
 }
 .back-to-top.show {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 footer .content p {
-    color: #F9F9F9;
-    font-weight: 700;
+  color: #f9f9f9;
+  font-weight: 700;
 }
 footer .content span {
-    color: #00DF5E;
+  color: #00df5e;
 }
 /*** media queries *******************************************************/
-@media screen and (min-width:1200px) {
-    .container {
-        max-width: 1350px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    footer .back-to-top {
-        position: fixed;
-        right: 7rem;
-        bottom: 1rem;
-    }
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  footer .back-to-top {
+    position: fixed;
+    right: 7rem;
+    bottom: 1rem;
+  }
 }
 
-@media screen and (min-width: 1900px){
-    .iconmoons {
-        left: 10rem;
-        bottom: 33rem;
-    }
-
+@media screen and (min-width: 1900px) {
+  .iconmoons {
+    left: 10rem;
+    bottom: 33rem;
+  }
 }
 
-   /*** mobile *******************************************************/
-@media screen and (max-width: 1000px){
-    .container {
-        max-width: 100vw;
-        margin-left: auto;
-        margin-right: auto;
+/*** mobile *******************************************************/
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    }
+  .navigation {
+    opacity: 0;
+    visibility: hidden;
 
-    .navigation {
-        opacity: 0;
-        visibility: hidden;
+    /** NAVBAR ADJUSTMENT IMPORTANTE **/
+    position: absolute;
 
-        /** NAVBAR ADJUSTMENT IMPORTANTE **/
-        display: none;
-        position: absolute;
+    /* posicionar na lateral */
+    right: 0;
+    /* o suficiente para a parte da logo continuara aparecendo */
+    top: 10vh;
+    width: 50vw;
+    height: 90vh;
 
-        /* posicionar na lateral */
-        right: 0;
-        /* o suficiente para a parte da logo continuara aparecendo */
-        top: 10vh;
-        width: 50vw;
-        height: 90vh;
-
-        /** NAVBAR ADJUSTMENT IMPORTANTE 
+    /** NAVBAR ADJUSTMENT IMPORTANTE 
         display: flex;
         **/
 
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 
-        background: linear-gradient(rgb(33, 33, 33, 0.8), rgb(33, 33, 33, 0.8)100%);
+    background: linear-gradient(
+      rgb(33, 33, 33, 0.8),
+      rgb(33, 33, 33, 0.8) 100%
+    );
 
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-    }
+    visibility: hidden;
+    transition: 0.3s ease-in;
+  }
 
-    .navigation li {
-        margin-left: 0;
-        opacity: 1;
-    }
+  .navigation li {
+    margin-left: 0;
+    opacity: 1;
+  }
 
-    /* troco o display de none para block */ 
-    .mobile-menu i {
-        display: block;
-    }
+  /* troco o display de none para block */
+  .mobile-menu i {
+    display: block;
+  }
 
-    /* nav bar esta na direita da tela 
+  /* nav bar esta na direita da tela 
     overflowX esconde */
-    .navigation.active {
-        opacity: 1;
-        visibility: visible;
-        transform: translateX(0);
+  .navigation.active {
+    opacity: 1;
+    visibility: visible;
 
-        /** NAVBAR ADJUSTMENT IMPORTANTE **/
-        display: flex;
-    }
+    /** NAVBAR ADJUSTMENT IMPORTANTE **/
+    display: flex;
+  }
 
-    .iconmoons {
-        display: none;
-    }
+  .iconmoons {
+    display: none;
+  }
 
-    /*** about ********************************************/
-    section .sides {
-        justify-content: center;
-    }
-    
-    /*** descriçao ***/
-    .rigth_side img {
-        display: none;
-    }
+  /*** about ********************************************/
+  section .sides {
+    justify-content: center;
+  }
 
-    .descricao { 
-        padding: 0 1rem;
-    }
+  /*** descriçao ***/
+  .rigth_side img {
+    display: none;
+  }
 
-    .icon.email {
-        margin-left: 2.5rem;
-    }
+  .descricao {
+    padding: 0 1rem;
+  }
 
-    /*** skills ********************************************/
-    .skillsBoxes {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: auto;
-        grid-gap: .5rem;
-        margin-right: auto;
-        margin-left: auto;
+  .icon.email {
+    margin-left: 2.5rem;
+  }
 
-        max-width: 400px;
-    }
+  /*** skills ********************************************/
+  .skillsBoxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
 
-    .skillBox {
-        width: 5.81rem;
-        height: 6.37rem;       
-    }
+    max-width: 400px;
+  }
 
+  .skillBox {
+    width: 5.81rem;
+    height: 6.37rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .container {
-        padding: 2.18rem 1.37rem;
-        max-width: 100vw;
+  .container {
+    padding: 2.18rem 1.3rem 0 3.4rem;
+    max-width: 100vw;
 
-        overflow-x: hidden;
-    }
+    overflow-x: hidden;
+  }
 
-    header {
-        padding: 0rem 2.37rem;
-    }
+  header {
+    padding: 0rem 2.37rem;
+  }
 
-    header i {
-        font-size: 1.5rem;
-    }
+  header i {
+    font-size: 1.5rem;
+  }
 
-     /*** about ******************************************/  
-    .sides {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        text-align: center;
-    }
+  /*** about ******************************************/
+  .sides {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+  }
 
-    .left_side span {
-        display: block;
-    }
+  .left_side span {
+    display: block;
+  }
 
-    /*** descriçao ***/
-    .icon.smile {
-        display: none;
-     }
-    
-    .icon {
-        margin-top: 1rem;
-        margin-right: 8rem;
-    }
+  /*** descriçao ***/
+  .icon.smile {
+    display: none;
+  }
 
-    .icons {
-        display: flex;
-        flex-direction: column;
-    }
+  .icon {
+    margin-top: 1rem;
+    margin-right: 8rem;
+  }
 
-    .icon.email {
-        margin-left: 3.6rem;
-    }
+  .icons {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .icon.instagram {
-        margin-left: 3.6rem;
-    }
+  .icon.email {
+    margin-left: 3.6rem;
+  }
 
-   /*** projetos ********************************************/
-    .projectBoxes .containerBox {
-        display: none;
+  .icon.instagram {
+    margin-left: 3.6rem;
+  }
 
-    }
+  /*** projetos ********************************************/
+  .projectBoxes .containerBox {
+    display: none;
+  }
 
-    .projectBox {
-        border-radius: 10px;
-    }
+  .projectBox {
+    border-radius: 10px;
+  }
 
-    .projeto {
-        padding: 0.875rem 1rem;
-    }
+  .projeto {
+    padding: 0.875rem 1rem;
+  }
 
+  /*** service *******************************************/
+  .servicesBoxes {
+    display: flex;
+    flex-direction: column;
 
-    /*** service *******************************************/
-    .servicesBoxes {
-        display: flex;
-        flex-direction: column; 
-        
-        max-width: 320px;
-    }
+    max-width: 320px;
+  }
 
+  /*** footer *********************************************/
+  footer {
+    padding: 0;
 
-   /*** footer *********************************************/
-    footer {
-        padding: 0;
+    margin-top: 8.56rem;
 
-        margin-top: 8.56rem;
+    width: 100%;
+    text-align: center;
+  }
 
-        width: 100%;
-        text-align: center;
-    }
-
-    footer .back-to-top {
-        display: none;
-    }
+  footer .back-to-top {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 380px){
-    .container {
-        width: 100vw;
-        margin:0 auto;
-        width: 100%;
+@media screen and (max-width: 380px) {
+  .container {
+    width: 100vw;
+    margin: 0 auto;
+    width: 100%;
 
-        overflow-x: hidden;
+    overflow-x: hidden;
 
-        text-align: center;
-        justify-content: center;
-        align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
-        padding: 1.18rem 2.37rem;;
-    }
+    padding: 1.18rem 2.37rem;
+  }
 
-    /*** about *********************************************/
-    .sides {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        text-align: center;
-    }
+  /*** about *********************************************/
+  .sides {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+  }
 
-    .iconmoons {
-        display: none;
-    }
+  .iconmoons {
+    display: none;
+  }
 
-    .left_side span {
-        display: block;
-    }
+  .left_side span {
+    display: block;
+  }
 
+  .descricao {
+    align-items: center;
+    text-align: center;
 
-    .descricao {
-        align-items: center;
-        text-align: center;
+    padding: 0;
+  }
 
-        padding: 0;
-    }
-
- /*    .descricao p {
+  /*    .descricao p {
         font-size: clamp(1.75em, 1em + 3vw, 2.5em);
     }
  */
-    .descricao h2 {
-        align-items: center;
-        white-space: nowrap;
+  .descricao h2 {
+    align-items: center;
+    white-space: nowrap;
 
-        text-align: center;
-    }
+    text-align: center;
+  }
 
-    .icons {
-        display: flex;
-        flex-direction: column;
+  .icons {
+    display: flex;
+    flex-direction: column;
 
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-    .icon {
-        margin-top: 3.75rem;
-    }
+  .icon {
+    margin-top: 3.75rem;
+  }
 
-   /*** skills *********************************************/
-    .skills h2 {
-        align-items: center;
-        white-space: nowrap;
-    }
+  /*** skills *********************************************/
+  .skills h2 {
+    align-items: center;
+    white-space: nowrap;
+  }
 
-    .skillsBoxes {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+  .skillsBoxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
-        /* justify-content: center; */
+    /* justify-content: center; */
+  }
+  .skillBox {
+    margin-top: 0.8rem;
+  }
 
-    }
-    .skillBox {
-        margin-top: 0.8rem;
-    }
+  /*** footer *********************************************/
+  footer {
+    padding: 0;
 
-   /*** footer *********************************************/
-    footer {
-        padding: 0;
+    margin-top: 8.56rem;
 
-        margin-top: 8.56rem;
+    width: 100%;
+    text-align: center;
+  }
 
-        width: 100%;
-        text-align: center;
-    }
-
-    footer .back-to-top {
-        display: none;
-    }
+  footer .back-to-top {
+    display: none;
+  }
 }
