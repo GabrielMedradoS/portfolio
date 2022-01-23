@@ -90,6 +90,11 @@ section .sides {
   margin-top: 1.125rem;
   font-weight: 500;
 }
+
+.left_side span {
+  display: block;
+}
+
 .left_side button {
   margin-top: 2.18rem;
   border: solid 1px #333333;
