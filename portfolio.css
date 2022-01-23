@@ -203,6 +203,8 @@ section.projetos {
 }
 .projectBox:hover {
   transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
 }
 .projectBox .containerBox img {
   display: block;
