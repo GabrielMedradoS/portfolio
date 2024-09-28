@@ -1,6 +1,6 @@
 ## Portfolio
 ### Layout 🚧
-  <img src=".github/portfolio.png" alt="portfolio" width="100%">
+  <img src=".github/github image.png" alt="portfolio" width="100%">
   <p align="center">
     <a href="#projeto-">Projeto</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#tecnologias-">Tecnologias</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
